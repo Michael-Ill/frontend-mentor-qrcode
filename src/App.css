@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@700&family=Roboto:wght@300&display=swap');
 
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+:root {
+  --dark-blue: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --light-gray: hsl(212, 45%, 89%);
 }
+
 
 body {
   font-family: 'Outfit', sans-serif;
@@ -19,7 +21,6 @@ body {
 
 .main-box {
   background: white;
-  display: flex;
   flex-direction: column;
   border-radius: 20px;
   width: 320px;
@@ -35,16 +36,18 @@ body {
 
 .title  {
   font-weight: 700;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   margin: 20px;
   margin-bottom: 5px;
+  max-width: 270px;
 }
 
 .description {
   font-weight: 400;
   text-align: center;
   margin: 10px 34px 18px;
-  color: hsl(220, 15%, 55%);
+  color: var(--grayish-blue);
   font-size: 15px;
+  max-width: 250px;
 }
