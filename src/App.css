@@ -41,6 +41,7 @@ body {
   margin: 20px;
   margin-bottom: 5px;
   max-width: 270px;
+  color: var(--white)
 }
 
 .description {
